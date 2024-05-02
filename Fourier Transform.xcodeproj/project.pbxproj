@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EAC37DF2BE33780007BBFD6 /* Fourier_TransformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC37DE2BE33780007BBFD6 /* Fourier_TransformApp.swift */; };
+		0EAC37DF2BE33780007BBFD6 /* FourierTransformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC37DE2BE33780007BBFD6 /* FourierTransformApp.swift */; };
 		0EAC37E12BE33780007BBFD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC37E02BE33780007BBFD6 /* ContentView.swift */; };
 		0EAC37E32BE33781007BBFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC37E22BE33781007BBFD6 /* Assets.xcassets */; };
 		0EAC37E62BE33781007BBFD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC37E52BE33781007BBFD6 /* Preview Assets.xcassets */; };
+		0EAC37EF2BE33AB7007BBFD6 /* RotationalGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC37EE2BE33AB7007BBFD6 /* RotationalGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EAC37DB2BE33780007BBFD6 /* Fourier Transform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fourier Transform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EAC37DE2BE33780007BBFD6 /* Fourier_TransformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fourier_TransformApp.swift; sourceTree = "<group>"; };
+		0EAC37DE2BE33780007BBFD6 /* FourierTransformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierTransformApp.swift; sourceTree = "<group>"; };
 		0EAC37E02BE33780007BBFD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0EAC37E22BE33781007BBFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EAC37E52BE33781007BBFD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EAC37EE2BE33AB7007BBFD6 /* RotationalGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationalGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		0EAC37DD2BE33780007BBFD6 /* Fourier Transform */ = {
 			isa = PBXGroup;
 			children = (
-				0EAC37DE2BE33780007BBFD6 /* Fourier_TransformApp.swift */,
+				0EAC37DE2BE33780007BBFD6 /* FourierTransformApp.swift */,
 				0EAC37E02BE33780007BBFD6 /* ContentView.swift */,
+				0EAC37EE2BE33AB7007BBFD6 /* RotationalGraph.swift */,
 				0EAC37E22BE33781007BBFD6 /* Assets.xcassets */,
 				0EAC37E42BE33781007BBFD6 /* Preview Content */,
 			);
@@ -138,7 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EAC37E12BE33780007BBFD6 /* ContentView.swift in Sources */,
-				0EAC37DF2BE33780007BBFD6 /* Fourier_TransformApp.swift in Sources */,
+				0EAC37DF2BE33780007BBFD6 /* FourierTransformApp.swift in Sources */,
+				0EAC37EF2BE33AB7007BBFD6 /* RotationalGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
