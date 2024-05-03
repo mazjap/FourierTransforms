@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E526C192BE5ABDF00F0532A /* AdjustableRotationalGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E526C182BE5ABDF00F0532A /* AdjustableRotationalGraph.swift */; };
 		0EAC37DF2BE33780007BBFD6 /* FourierTransformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC37DE2BE33780007BBFD6 /* FourierTransformApp.swift */; };
 		0EAC37E12BE33780007BBFD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC37E02BE33780007BBFD6 /* ContentView.swift */; };
 		0EAC37E32BE33781007BBFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAC37E22BE33781007BBFD6 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E526C182BE5ABDF00F0532A /* AdjustableRotationalGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableRotationalGraph.swift; sourceTree = "<group>"; };
 		0EAC37DB2BE33780007BBFD6 /* Fourier Transform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fourier Transform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAC37DE2BE33780007BBFD6 /* FourierTransformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierTransformApp.swift; sourceTree = "<group>"; };
 		0EAC37E02BE33780007BBFD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				0EAC37DE2BE33780007BBFD6 /* FourierTransformApp.swift */,
 				0EAC37E02BE33780007BBFD6 /* ContentView.swift */,
+				0E526C182BE5ABDF00F0532A /* AdjustableRotationalGraph.swift */,
 				0EAC37EE2BE33AB7007BBFD6 /* RotationalGraph.swift */,
 				0EAC37F22BE4A12C007BBFD6 /* AnimatedRotationalGraph.swift */,
 				0EAC37E22BE33781007BBFD6 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E526C192BE5ABDF00F0532A /* AdjustableRotationalGraph.swift in Sources */,
 				0EAC37E12BE33780007BBFD6 /* ContentView.swift in Sources */,
 				0EAC37DF2BE33780007BBFD6 /* FourierTransformApp.swift in Sources */,
 				0EAC37F32BE4A12C007BBFD6 /* AnimatedRotationalGraph.swift in Sources */,
@@ -288,6 +292,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +322,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -22,12 +22,13 @@ struct RotationalGraph: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
         
+        let minDimension = min(rect.width, rect.height)
         let rotations = limit / rotationRate
         
         for i in 0..<Int(Double(samplesPerRotation) * rotations) {
             let rotationAngle = Double(i % samplesPerRotation) / Double(samplesPerRotation) * 2 * .pi
             let input = Double(i) / Double(samplesPerRotation)
-            let output = function(input)
+            let output = (minDimension / 2) * function(input)
             
             // Transform function space
             let x = output * cos(rotationAngle)
