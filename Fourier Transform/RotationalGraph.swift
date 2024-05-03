@@ -3,20 +3,26 @@ import SwiftUI
 struct RotationalGraph: Shape {
     let function: @Sendable (Double) -> Double
     
-    // TODO: - Add rotation rate variable
-    let samplesPerRotation: Int // How many times we pull a value from the function per rotation (2π radians)
-    let limit: Double
+    var animatableData: Double {
+        get { limit }
+        set { limit = newValue }
+    }
     
-    init(samplesPerRotation: Int = 314, limit: Double = 4 * .pi, function: @escaping @Sendable (Double) -> Double) {
-        self.function = function
+    let rotationRate: Double // The x value at which a full rotation occurs
+    let samplesPerRotation: Int // How many times we pull a value from the function per rotation
+    var limit: Double // The x value at which graph drawing stops
+    
+    init(rotationRate: Double = 2 * .pi, samplesPerRotation: Int = 314, limit: Double = 4 * .pi, function: @escaping @Sendable (Double) -> Double) {
+        self.rotationRate = rotationRate
         self.samplesPerRotation = samplesPerRotation
         self.limit = limit
+        self.function = function
     }
     
     func path(in rect: CGRect) -> Path {
         var path = Path()
         
-        let rotations = limit / (2 * .pi)
+        let rotations = limit / rotationRate
         
         for i in 0..<Int(Double(samplesPerRotation) * rotations) {
             let rotationAngle = Double(i % samplesPerRotation) / Double(samplesPerRotation) * 2 * .pi
