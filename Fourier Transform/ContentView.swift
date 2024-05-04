@@ -36,7 +36,6 @@ struct ContentView: View {
                 Text("acosh").tag(Function.acosh)
                 Text("atanh").tag(Function.atanh)
             }
-//            .pickerStyle(.segmented)
             .onChange(of: selectedFunction) {
                 switch selectedFunction {
                 case .sin:
